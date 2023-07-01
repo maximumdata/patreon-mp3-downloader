@@ -18,7 +18,7 @@ const items = await getRssItems('https://www.patreon.com/rss/PATREONCAMPAIGN?aut
 
 // this will be an array of Item objects, that has a title and a url
 // as well as a download() method that you can use to trigger the download of
-// and individual file.
+// an individual file.
 console.log(items);
 
 // since you have an array of objects that each contains it's own download method,
