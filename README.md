@@ -40,7 +40,7 @@ await Promise.all(items.map(i => await i.download()))
 
 // you could also chunk the array with lodash, and Promise.all each chunk:
 import _ from 'lodash';
-const chunks = items.chunk(5);
+const chunks = _.chunk(items, 5);
 for (const chunk of chunks) {
     await Promise.all(chunk.map(i => await i.download()));
 }
