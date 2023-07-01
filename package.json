@@ -1,0 +1,28 @@
+{
+  "name": "patreon-mp3-downloader",
+  "version": "1.0.0",
+  "description": "Module to download all mp3s from a patreon rss feed",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximumdata/patreon-mp3-downloader.git"
+  },
+  "keywords": [
+    "patreon",
+    "mp3"
+  ],
+  "author": "Mike Dettmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximumdata/patreon-mp3-downloader/issues"
+  },
+  "homepage": "https://github.com/maximumdata/patreon-mp3-downloader#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "xml-js": "^1.6.11"
+  }
+}
