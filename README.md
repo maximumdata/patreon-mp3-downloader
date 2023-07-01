@@ -11,7 +11,7 @@ You'll need to get your individual rss link from the patreon campaign's website
 
 ### example usage
 
-```
+```js
 import getRssItems from 'patreon-mp3-downloader';
 
 const items = await getRssItems('https://www.patreon.com/rss/PATREONCAMPAIGN?auth=PATREON_PROVIDED_AUTH_TOKEN_STRING');
